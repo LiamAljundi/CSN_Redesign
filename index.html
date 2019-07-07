@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-<body>
-    <section id="content">
-        <h1 class="project_title">CSN ReDesign</h1>
 
-        <div class="introduction">
-            <span>Timeline: 1 week</span>
+<body>
+
+    <section id="introduction">
+
+        <div class="project_title">
+            <h1 class="title_text">CSN ReDesign</h1>
+            <div class="title_line"></div>
+            <h3>UI/UX</h3>
+        </div>
+
+        <div class="description">
+            <p><strong>Timeline:</strong> 1 week</p>
             <div>
-                <span>Tasks:</span> 
+                <strong>Tasks:</strong>
                 <ul>
                     <li>Identify design patterns</li>
                     <li>Communicate an annotated GUI</li>
@@ -22,13 +30,18 @@
                     <li>Mock up and user testing</li>
                 </ul>
             </div>
-            <span>Tools: Adobe XD</span>
-            
+            <p><strong>Tools:</strong> Adobe XD</p>
         </div>
 
-        <div>
+
+    </section>
+
+    <section id="content">
+
+        <div class="text_full content_box">
             <h3>What is the app used for?</h3>
-            <h5>CSN app is issued by the Swedish National Board of Student Aid for students who are receiving grants/loans</h5>
+            <h5>CSN app is issued by the Swedish National Board of Student Aid for students who are receiving
+                grants/loans</h5>
             <ul>
                 <li>Check if a payment back from the student is received, and the remaining unpaid amount.</li>
                 <li>Check the date when a student gets paid.</li>
@@ -37,19 +50,60 @@
             </ul>
         </div>
 
-        <div>
-                <h3>What are the issues?</h3>
-                <h5>After studying the app and asking 15 users about the issues they have with it, the following problems stood out:</h5>
-                <ul>
-                    <li>Users find the layout and overall visual design of the app outdated and uninviting to use.</li>
-                    <li>The users have to navigate back to the home screen few times before viewing all the necessary information they are after.</li>
-                    <li>All of the options on the home screen contained in one-sized boxes, even though 2-3 of them are used a lot more than the others.</li>
-                    <li>All users preferred using the website because everything they needed was displayed on a single page.</li>
-                </ul>
+        <div class="img_full content_box">
+            <img src="./img/app_analysis.png">
+        </div>
+
+        <div class="content_box">
+            <h3>What are the issues?</h3>
+            <h5>After studying the app and asking 15 users about the issues they have with it, the following problems
+                stood out:</h5>
+            <ul>
+                <li>Users find the layout and overall visual design of the app outdated and uninviting to use.</li>
+                <li>The users have to navigate back to the home screen few times before viewing all the
+                    necessary information they are after.</li>
+                <li>All of the options on the home screen contained in one-sized boxes, even though 2-3 of them are used
+                    a lot more than the others.</li>
+                <li>All users preferred using the website because everything they needed was displayed on a single page.
+                </li>
+            </ul>
+        </div>
+
+        <div class="img_full content_box">
+            <img src="./img/csn_webpage.png">
+        </div>
+
+        <div id="redesign" class="content_box">
+            <h3>Re-design</h3>
+            <h5>After studying the structure of the app and the website and getting the users' feedback, the issues were
+                fixed with a new design.</h5>
+
+            <div class="half_right">
+                <img src="./img/main_page.png">
             </div>
 
-        
+            <div class="half_left">
+                <img src="./img/color_scheme.png">
+                <p>The new colour scheme is adapted from the new version of the CSN website.</br></br>
+                    The most used options are made bigger that the rest.</br></br>
+                    All of the necessary information are displayed on the main screen, as a small pop-up boxes.
+                </p>
+
+            </div>
+        </div>
+
+        <div id="user_flow" class="content_box">
+            <h3>User-flow of handing in study insurance</h3>
+            <img src="./img/csn-loggin.png">
+            <img src="./img/main_page.png">
+            <img src="./img/studt-insurance.png">
+            <img src="./img/study-insurance2.png">
+
+
+        </div>
 
     </section>
+
 </body>
+
 </html>
